@@ -1,10 +1,12 @@
+//uncomment the line below and try once
+//#include <Arduino.h>
 #include <SPI.h>
 #include <SD.h>
 
-#define SD_CS 10 // Chip Select pin for SD card
-#define SPI_MOSI 11 // SD Card MOSI
-#define SPI_MISO 13 // SD Card MISO
-#define SPI_SCK 12 // SD Card Clock
+#define SD_CS 5 // Chip Select pin for SD card
+#define SPI_MOSI 23 // SD Card MOSI
+#define SPI_MISO 19 // SD Card MISO
+#define SPI_SCK 18 // SD Card Clock
 
 void setup() {
     // Start Serial communication
