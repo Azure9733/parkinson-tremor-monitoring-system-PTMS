@@ -27,3 +27,6 @@ void setup() {
 void loop() {
   // put your main code here, to run repeatedly:
 }
+
+
+//After uploading the code, open the Serial Monitor, RST your board and you’ll see the SPI pins.
