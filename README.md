@@ -19,9 +19,25 @@ These codes can be used to:
 - check if the microSD card is functioning properly or is of compatible file system (FAT32 in this case)
 - create a test file confirming that data can be written successfully
 
+## Wiring Instructions
+
+### Arduino Nano to EXG Pill and SD Card Module
+
+#### SD Card Module:
+- **SS(Slave Select)/CS(Chip Select)**: Connect to any digital pin except 11, 12, 13 (e.g., D4)
+- **SCK**: D13
+- **MOSI**: D11
+- **MISO**: D12
+- **Vcc**: +5V
+- **GND**: GND
+
+#### EXG Pill:
+- **Vcc**: 5V
+- **GND**: GND
+- **OUT**: A0
+
 ## Contents
 
 - [Code](emg_codes/EMG_data_aqi_5.ino) for storing data
-- Circuit diagrams
-- Testing scripts for microSD card functionality
-- Reference materials
+- [Testing scripts for microSD card functionality](SD_card_testing)
+- [Illustrations](Illustrations)
