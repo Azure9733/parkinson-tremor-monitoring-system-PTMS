@@ -27,8 +27,8 @@ ported for sparkfun esp32
 
 #include <WiFi.h>
 
-const char *ssid = "Galaxy_F23_5G_E192";
-const char *password = "bspe0280";
+const char *ssid = "enter_wifi_network_name";
+const char *password = "enter_passwd";
 
 NetworkServer server(80);
 
