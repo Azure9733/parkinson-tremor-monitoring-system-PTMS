@@ -1,3 +1,5 @@
+//This code is used to recieve data from exg-pill and visualise it on serial plotter.
+
 #define SAMPLE_RATE 500
 #define BAUD_RATE 115200
 #define INPUT_PIN A0
