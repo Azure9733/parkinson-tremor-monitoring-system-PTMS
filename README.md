@@ -13,11 +13,11 @@ The PTMS project aims to develop a smart wearable device designed to detect trem
 
 The Arduino Nano collects data from the EMG sensor (EXG Pill). The readings can be viewed on the Serial Monitor of the Arduino IDE, and the data can be visualized using the Serial Plotter. The relevant code for this functionality is located in the following folder: [emg_codes](https://github.com/Azure9733/parkinson-tremor-monitoring-system-PTMS-/tree/main/emg_codes).
 
-Additionally, a microSD card module is interfaced with the Arduino Nano to store sensor data. Code for testing the microSD card module's integration with the microcontroller can be found in the [SD_card_testing](SD_card_testing).
-, which checks connections, verifies the code, and ensures the microSD card is functioning correctly and is of compatible file system (FAT32 in this case), 
-These codes can help to :
-- to verify if the connections are correct
-- to check if microSD card is functioning properly or is of compatible file system (FAT32 in this case)
+Additionally, a microSD card module is interfaced with the Arduino Nano to store sensor data. Code for testing the microSD card module's integration with the microcontroller can be found in the following folder: [SD_card_testing](SD_card_testing).
+These codes can be used to:
+- verify if the connections are correct
+- check if the microSD card is functioning properly or is of compatible file system (FAT32 in this case)
+- create a test file confirming that data can be written successfully
 
 ## Contents
 
