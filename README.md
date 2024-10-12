@@ -2,6 +2,13 @@
 
 This repository contains code, circuit diagrams, references, and other related resources for the project.
 
+## Contents
+- [Synopsis](https://github.com/Azure9733/parkinson-tremor-monitoring-system-PTMS-/tree/main#synopsis)
+- [Wiring Instructions](https://github.com/Azure9733/parkinson-tremor-monitoring-system-PTMS-/tree/main?tab=readme-ov-file#wiring-instructions) 
+- [EMG sensor Codes](emg_codes)
+- [Testing scripts for microSD card functionality](SD_card_testing)
+- [Illustrations](Illustrations)
+
 ## Synopsis
 
 The PTMS project aims to develop a smart wearable device designed to detect tremors associated with Parkinson's Disease. By continuously monitoring the wearer's movements and analyzing the data, it can predict and alert the user about an impending tremor episode. This early warning system can help individuals manage their condition more effectively.
@@ -35,9 +42,3 @@ These codes can be used to:
 - **Vcc**: 5V
 - **GND**: GND
 - **OUT**: A0
-
-## Contents
-
-- [Code](emg_codes/EMG_data_aqi_5.ino) for storing data
-- [Testing scripts for microSD card functionality](SD_card_testing)
-- [Illustrations](Illustrations)
