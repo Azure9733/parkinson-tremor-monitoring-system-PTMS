@@ -8,7 +8,7 @@ This repository contains code, circuit diagrams, references, and other related r
 - [EMG sensor Codes](emg_codes)
 - [Testing scripts for microSD card functionality](SD_card_testing)
 - [Illustrations](Illustrations)
-- [Acknowledgements](https://github.com/Azure9733/parkinson-tremor-monitoring-system-PTMS/edit/main/README.md#acknowledgements)
+- [Acknowledgements](https://github.com/Azure9733/parkinson-tremor-monitoring-system-PTMS?tab=readme-ov-file#acknowledgements)
 
 ## Synopsis
 
