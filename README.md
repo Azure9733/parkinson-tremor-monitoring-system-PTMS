@@ -8,10 +8,13 @@ This repository contains code, circuit diagrams, references, and other related r
 - [EMG sensor Codes](emg_codes)
 - [Testing scripts for microSD card functionality](SD_card_testing)
 - [Illustrations](Illustrations)
+- [Acknowledgements](https://github.com/Azure9733/parkinson-tremor-monitoring-system-PTMS/edit/main/README.md#acknowledgements)
 
 ## Synopsis
 
 The PTMS project aims to develop a smart wearable device designed to detect tremors associated with Parkinson's Disease. By continuously monitoring the wearer's movements and analyzing the data, it can predict and alert the user about an impending tremor episode. This early warning system can help individuals manage their condition more effectively.
+
+This research project is under the Department of Instrumentation and Control Engineering (ICE) of MIT Manipal. (Due to confidentiality, part of the project is not made public on this repository)
 
 ### Technical Overview
 
@@ -42,3 +45,7 @@ These codes can be used to:
 - **Vcc**: 5V
 - **GND**: GND
 - **OUT**: A0
+
+## Acknowledgements
+- Thanks to the Department of Instrumentation and Control Engineering (ICE) of MIT Manipal for providing resources and equipment needed for this project.
+- Codes for EXG PILL sensor is derived from [Upside Downlabs EXG PILL Repository](https://github.com/upsidedownlabs/BioAmp-EXG-Pill)
