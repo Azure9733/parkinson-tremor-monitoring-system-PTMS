@@ -19,7 +19,7 @@ This research project is under the Department of Instrumentation and Control Eng
 ### Technical Overview
 
 - **Microcontroller:** Arduino Nano
-- **Sensor:** EXG Pill
+- **Sensor:** Upside Downlabs EXG Pill
 
 The Arduino Nano collects data from the EMG sensor (EXG Pill). The readings can be viewed on the Serial Monitor of the Arduino IDE, and the data can be visualized using the Serial Plotter. The relevant code for this functionality is located in the following folder: [emg_codes](https://github.com/Azure9733/parkinson-tremor-monitoring-system-PTMS-/tree/main/emg_codes).
 
