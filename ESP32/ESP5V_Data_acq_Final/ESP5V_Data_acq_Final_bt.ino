@@ -19,7 +19,7 @@ void setup() {
   while (!Serial) { }
   
   // Initialize Bluetooth
-  SerialBT.begin("ESP32_group09"); // Set the name of the Bluetooth device
+  SerialBT.begin("ESP32_group03"); // Set the name of the Bluetooth device
 
   // Configure ADC for ESP32
   analogReadResolution(12); // Set ADC resolution to 12 bits
