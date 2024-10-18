@@ -33,7 +33,7 @@ void setup() {
     Serial.println("Error opening EMGData001.txt");
     while (true); // Halt if file can't be opened
   } else {
-    EMGD.println("Timestamp (ms), Signal, Envelope"); // Header for the file
+    //EMGD.println("Timestamp (ms), Signal, Envelope"); //Header for the file
     EMGD.flush(); // Ensure header is written
   }
 }
