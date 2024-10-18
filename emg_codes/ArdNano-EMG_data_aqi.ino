@@ -1,3 +1,4 @@
+//this code works for arduino nano
 #include <SD.h>
 #include <SPI.h>
 #include "Wire.h"
@@ -30,7 +31,7 @@ void setup()
 void loop() 
 {
 
-  EMGD = SD.open("PTR9.txt" , FILE_WRITE); //open PRT3.txt to write data onto the file. File can already be preexisting or will be made by code itself. make new file every time there is new patient or for every new module we make.
+  EMGD = SD.open("PTR1.txt" , FILE_WRITE); //open PRT3.txt to write data onto the file. File can already be preexisting or will be made by code itself. make new file every time there is new patient or for every new module we make.
   static unsigned long past = 0;
   unsigned long present = micros();
   unsigned long interval = present - past;
