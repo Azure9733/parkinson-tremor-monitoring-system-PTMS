@@ -46,6 +46,21 @@ These codes can be used to:
 - **GND**: GND
 - **OUT**: A0
 
+### ESP32 38pin to EXG Pill and SD Card Module
+
+#### SD Card Module:
+- **SS(Slave Select)/CS(Chip Select)**: Connect to any digital pin except 11, 12, 13 (e.g., D4) P5
+- **SCK**: P18
+- **MOSI**: P23
+- **MISO**: P19
+- **Vcc**: +5V
+- **GND**: GND
+
+#### EXG Pill:
+- **Vcc**: 5V
+- **GND**: GND
+- **OUT**: P35
+
 ## Acknowledgements
 - Thanks to the Department of Instrumentation and Control Engineering (ICE) of MIT Manipal for providing resources and equipment needed for this project.
 - Codes for EXG PILL sensor is derived from [Upside Downlabs EXG PILL Repository](https://github.com/upsidedownlabs/BioAmp-EXG-Pill)
